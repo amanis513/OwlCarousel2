@@ -1296,7 +1296,7 @@
 			this.$stage.append(item);
 			this._items.push(item);
 			this._mergers.push(item.find('[data-merge]').addBack('[data-merge]').attr('data-merge') * 1 || 1);
-		}, this));
+		}, this)); 
 
 		this.reset(this.isNumeric(this.settings.startPosition) ? this.settings.startPosition : 0);
 
